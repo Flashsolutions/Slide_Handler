@@ -1,0 +1,67 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "slide handler",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "viewIntent",
+          "samples": [
+            "presentation name"
+          ]
+        },
+        {
+          "name": "nextIntent",
+          "samples": [
+            "next slide"
+          ]
+        },
+        {
+          "name": "prevIntent",
+          "samples": [
+            "previous slide"
+          ]
+        },
+        {
+          "name": "presentationIntent",
+          "slots": [
+            {
+              "name": "presentationNames"
+            }
+          ],
+          "samples": [
+            "set presentationName to {presentationNames}"
+          ]
+        },        
+        {
+          "name": "slideIntent",
+          "slots": [
+            {
+              "name": "slideNum",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "go to slide {slideNum}",
+            "ask slide manager for slide {slideNum}",
+            "ask slide manager for slide number {slideNum}",
+            "slide {slideNum}",
+            "for slide {slideNum}",
+            "{slideNum}"
+          ]
+        }
+      ]
+    }
+  }
+}

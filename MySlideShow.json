@@ -1,0 +1,20 @@
+[
+    {
+        "Slide": 1,
+        "PresentationName": "slideshow",
+        "userId": "1",
+        "Content": "My First Slide Show <break time='1s'/> This is an example of slide 1 content. "
+    },      
+    {
+        "Slide": 2,
+        "PresentationName": "slideshow",
+        "userId": "1",
+        "Content": "My First Slide Show <break time='1s'/> This is an example of slide 2 content. "
+    },  
+    {
+        "Slide": 3,
+        "PresentationName": "slideshow",
+        "userId": "1",
+        "Content": "My First Slide Show <break time='1s'/> This is an example of slide 3 content. "
+    }                                 
+]
